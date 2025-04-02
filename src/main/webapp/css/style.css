@@ -1,0 +1,26 @@
+@charset "UTF-8";
+body {
+    background: linear-gradient(135deg, #9b59b6, #e74c3c);
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+.container {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    
+    width: 100%;
+}
+form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.sub-container {
+	width: 45%
+}
